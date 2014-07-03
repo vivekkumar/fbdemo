@@ -1,0 +1,39 @@
+body{overflow-y: scroll;}
+/* Util */
+.hide {display: none;}
+.pull-left {float: left;}
+.pull-right {float: right;}
+.expand {height: auto; overflow: visible;}
+.animator {transition: all 1s;}
+
+h1 .fa {font-size: 1.5em; color: #3b5998;}
+.container {max-width: 1024px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; padding-top: 0;}
+.fb-app-search {padding: 0 20px; border-top: 2px dotted #ccc;}
+.fb-app-loading {font-size: 2em; color: #ccc; padding: 1em; text-align: center;}
+.fb-app-search form {margin: 1em 0; text-align: center; margin-top: 2em;}
+.fb-app-search form input[type="text"],
+.fb-app-search form button{border-radius: 1em; padding: 1em; border: 1px solid #ccc; margin: 0; }
+.fb-app-search form input[type="text"] {width: 60%; font-weight: 800; border-top-right-radius: 0; border-bottom-right-radius: 0;}
+.fb-app-search form button {border-radius-left: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; padding: 1em 1.2em; border-left: none; cursor: pointer;}
+.fb-app-search form button:hover {background: #3b5998; color: #fff;}
+.search-paging {display: inline-block; width: 100%;}
+
+.page-container {border: 1px solid #ddd; box-shadow: 4px 6px 4px #ddd; margin: 1em; padding: 0 1em; height: 100px; transition: height 0.8s; overflow: hidden;}
+.page-container.expand {height: 250px; overflow: none;}
+.page-cover-inner {position: relative; display: inline-block; width: 720px; height: 148px; overflow: hidden; border: 1px solid #3b5998;}
+.page-cover img {width: 720px; opacity: .3;}
+.page-cover img:hover {opacity: 1;}
+.page-cover.page-cover img.page-cover-photo {width: 70px; position: absolute; top: 69px; left: 7px; border: 2px solid #fff; opacity: 1;}
+.page-cover {text-align: center; height: 150px; overflow: hidden; position: relative;}
+.page-cover-des {
+    display: inline-block;
+    left: 90px;
+    position: absolute;
+    text-shadow: 0 1px 2px #fff;
+    text-transform: uppercase;
+    top: 121px;
+}
+.page-cover-des a {color: #fff; font-weight: 800; text-shadow: 0 1px 2px #333;}
+.page-cover-des .fa {color: #3b5998;}
+
+.page-likes {margin: 0 1em;}
